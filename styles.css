@@ -1,0 +1,292 @@
+/* Basic Resets */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #333;
+    color: #fff;
+    /* line-height: 1.6; */
+}
+
+/* Header and Navigation Styling */
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.main-content {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* Styling for social links */
+.social-links a {
+    margin-right: 10px;
+    display: inline-block;
+    background: #444;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Section Layout with Flexbox */
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Two Column Layout for larger screens */
+.column {
+    flex: 1;
+    padding: 10px;
+    min-width: 300px; /* ensures columns don't get too narrow */
+}
+
+/* Styling specific elements within columns */
+.skills-bar {
+    background: #444;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: white;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.resume-heading {
+    background-color: #222;
+    color: white;
+    padding: 40px 20px;  /* Increased padding for better focus */
+    font-size: 2.4em;  /* Larger text for headline */
+    text-align: center;  /* Center aligning the headline */
+    margin-bottom: 20px; /* Added space below the heading */
+    border-bottom: 3px solid #FFD700; /* Gold line for accent under the heading */
+}
+
+.resume-section {
+    margin: 40px auto;  /* More margin for better spacing */
+    padding: 20px;
+    max-width: 800px;  /* Limiting width for better reading experience */
+    background: #444;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* Subtle shadow for depth */
+}
+
+.resume-content {
+    font-size: 1.1em; /* Adjust font size for readability */
+    line-height: 1.6; /* Improved line height for better text flow */
+    text-align: left;  /* Left aligning the text for standard reading */
+}
+
+
+/* Experience Section Specific Styles */
+.experience-section {
+    display: flex;
+    flex-direction: column;
+    background: #444;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.experience-title {
+    font-size: 1.4em;
+    color: #FFD700; /* Gold color for distinction */
+}
+
+.experience-company {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+.experience-details {
+    font-size: 1em;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+/* Education Section Specific Styles */
+.education-section {
+    display: flex;
+    flex-direction: column;
+    background: #444;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.education-title {
+    font-size: 1.4em;
+    color: #FFD700; /* Gold color for distinction */
+}
+
+.education-details {
+    font-size: 1em;
+    margin-top: 5px;
+    line-height: 1.4;
+}
+
+.education-info {
+    margin-top: 10px;
+}
+.projects-section {
+    background: #333;
+    padding: 40px 0;
+    color: white;
+    text-align: center;
+}
+
+.projects-box {
+    display: inline-block;
+    width: 45%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.projects-box h2 {
+    font-size: 1.8em;
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+
+.projects-box p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+.project-number {
+    font-size: 2.5em;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+}
+
+.project-button {
+    background-color: #444;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.project-button:hover {
+    background-color: #555;
+}
+
+.github-link {
+    background-color: #222;
+    color: #FFD700;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.github-link:hover {
+    background-color: #555;
+}
+
+
+
+
+
+.github-link {
+    display: inline-block;
+    background-color: #FFD700; 
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Contact Form Styles */
+.contact-form {
+    background: #333; /* Dark background for the form */
+    padding: 40px;
+    max-width: 600px;
+    margin: 40px auto; /* Centering the form */
+    border-radius: 8px;
+}
+
+.contact-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box; /* Includes padding in the width */
+}
+
+.contact-submit {
+    background-color: #444; /* Darker button for contrast */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.contact-input:focus,
+.contact-submit:hover {
+    background-color: #555; /* Slightly lighter on focus/hover */
+}
+
+.label {
+    color: white; /* Ensures labels are visible */
+    display: block;
+    margin-top: 20px;
+}
+
+
